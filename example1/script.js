@@ -1,8 +1,8 @@
 // load three.js
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124.0/build/three.module.js'
+import * as THREE from 'three'
 
 // uncomment to load controls
-// import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.124.0/examples/jsm/controls/OrbitControls.js'
+//import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 
 // create a scene and a camera
 const scene = new THREE.Scene()

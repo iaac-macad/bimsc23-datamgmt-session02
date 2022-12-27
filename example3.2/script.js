@@ -1,7 +1,7 @@
 // Import libraries
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124.0/build/three.module.js'
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.124.0/examples/jsm/controls/OrbitControls.js'
-import { Rhino3dmLoader } from 'https://cdn.jsdelivr.net/npm/three@0.124.0/examples/jsm/loaders/3DMLoader.js'
+import * as THREE from 'three'
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
+import { Rhino3dmLoader } from 'three/addons/loaders/3DMLoader.js'
 
 let camera, scene, raycaster, renderer, selectedMaterial
 const mouse = new THREE.Vector2()
