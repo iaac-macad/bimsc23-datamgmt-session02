@@ -1,5 +1,6 @@
+Cloud Based Data Management 2023 
 # Session 02
-## Cloud Based Data Management 2023 
+
 
 These examples introduce html and javascript concepts we'll be using in the seminar. This session builds on [session 1](https://github.com/iaac-macad-s1/lecture1) and shows how to use JavaScript libraries.
 
