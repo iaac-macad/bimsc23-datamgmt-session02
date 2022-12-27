@@ -1,5 +1,4 @@
 // Import libraries
-// Import libraries
 import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import { Rhino3dmLoader } from 'three/addons/loaders/3DMLoader.js'
