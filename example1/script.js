@@ -20,7 +20,7 @@ document.body.appendChild( renderer.domElement )
 // Create an object and add it to the scene:
 
 // 1. Create the geometry:
-const geometry = new THREE.TorusKnotBufferGeometry( 10, 3, 100, 16 )
+const geometry = new THREE.TorusKnotGeometry( 10, 3, 100, 16 )
 
 // 2. Create the material:
 const material = new THREE.MeshNormalMaterial()
