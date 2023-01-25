@@ -63,7 +63,7 @@ function init () {
     // load hdr cube map
     // cubeMap = new HDRCubeTextureLoader()
     //     .setPath( './textures/cube/pisaHDR/' )
-    //     .setDataType( THREE.UnsignedByteType )
+    //     .setDataType( THREE.HalfFloatType )
     //     .load( [ 'px.hdr', 'nx.hdr', 'py.hdr', 'ny.hdr', 'pz.hdr', 'nz.hdr' ] )
     
     // or, load cube map
