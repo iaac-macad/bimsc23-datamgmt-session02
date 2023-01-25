@@ -5,7 +5,7 @@ import { Rhino3dmLoader } from 'three/addons/loaders/3DMLoader.js'
 
 let camera, scene, raycaster, renderer, selectedMaterial
 const mouse = new THREE.Vector2()
-window.addEventListener( 'click', onClick, false);
+window.addEventListener( 'click', onClick);
 
 init()
 animate()
@@ -44,7 +44,7 @@ function init() {
     raycaster = new THREE.Raycaster()
 
     const loader = new Rhino3dmLoader()
-    loader.setLibraryPath( 'https://cdn.jsdelivr.net/npm/rhino3dm@0.13.0/' )
+    loader.setLibraryPath( 'https://cdn.jsdelivr.net/npm/rhino3dm@7.11.1/' )
 
     loader.load( 'sphere.3dm', function ( object ) {
 
