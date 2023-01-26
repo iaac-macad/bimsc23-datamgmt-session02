@@ -38,12 +38,10 @@ function init () {
 
     // load the model
     const loader = new Rhino3dmLoader()
-    loader.setLibraryPath( 'https://cdn.jsdelivr.net/npm/rhino3dm@0.13.0/' )
+    loader.setLibraryPath( 'https://cdn.jsdelivr.net/npm/rhino3dm@7.11.1/' )
 
     loader.load( model, function ( object ) {
 
-        // uncomment to hide spinner when model loads
-        // document.getElementById('loader').remove()
         scene.add( object )
 
     } )
